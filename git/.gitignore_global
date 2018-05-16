@@ -1,0 +1,4 @@
+# No temporary files
+*~
+# No custom attribute files from macOS
+.DS_Store

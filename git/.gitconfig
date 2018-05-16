@@ -1,0 +1,5 @@
+[user]
+	name = Benjamin Scharf
+	email = benjamin.d.scharf@gmail.com
+[core]
+	excludesfile = /Users/bscharf/.gitignore_global
