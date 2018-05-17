@@ -10,12 +10,18 @@ call plug#begin('~/.vim/plugged')
 
 " Toggleable file navigation from inside vim
 Plug 'scrooloose/nerdtree'
-" Better syntax highlighting and spacing for JS
+" Easy commenting in and out
+Plug 'scrooloose/nerdcommenter'
+" Better syntax highlighting and spacing
 Plug 'pangloss/vim-javascript'
+Plug 'digitaltoad/vim-pug'
 " Collection of color schemes, specific one enabled below
 Plug 'flazz/vim-colorschemes'
 " Auto-close brackets / parens 
 Plug 'Townk/vim-autoclose'
+" Better bottom bar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Initialize
 call plug#end()
@@ -30,3 +36,4 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " Color scheme
 colorscheme solarized
+let g:airline_theme='solarized'
