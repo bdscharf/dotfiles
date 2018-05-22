@@ -24,6 +24,7 @@ apps=(
     textmate,
     transmission,
     ubersicht,
+    unetbootin,
     virtualbox,
     xact,
     xld
