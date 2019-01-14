@@ -4,7 +4,7 @@ brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
 
-# Install packages
+# Install apps
 
 apps=(
     alfred,
@@ -25,10 +25,8 @@ apps=(
     transmission,
     ubersicht,
     unetbootin,
-    virtualbox,
     xact,
     xld
 )
 
 brew cask install "${apps[@]}"
-
