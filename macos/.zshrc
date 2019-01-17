@@ -74,6 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python='python3'
 alias brewgo="brew update && brew upgrade && brew cleanup"
+alias dotup="python ~/dotfiles/backup_dotfile.py"
 
 # iTerm2 Shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
