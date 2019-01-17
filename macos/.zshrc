@@ -98,5 +98,11 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
+# Set-up cheat editor
+export CHEATCOLORS=true
+export CHEAT_EDITOR='vim'
+ 
+
 # Enable direnv
 eval "$(direnv hook zsh)"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
