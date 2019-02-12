@@ -2,6 +2,11 @@ import sys, os, shutil
 # workarounds for annoyances of shutil with directories
 from distutils.dir_util import copy_tree, remove_tree
 
+if len(sys.argv) != 2:
+    print('Usage:')
+    print('   dotup [path]')
+    sys.exit()
+
 item_name = sys.argv[1] # first argument is script name
 actual_name = os.path.basename(item_name)
 

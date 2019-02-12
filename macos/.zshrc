@@ -107,3 +107,6 @@ export CHEAT_EDITOR='vim'
 # Enable direnv
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Modify Python Path to include pyobjc
+export PYTHONPATH="/miniconda/bin/"
