@@ -110,3 +110,6 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # Modify Python Path to include pyobjc
 export PYTHONPATH="/miniconda/bin/"
+
+# Activate Poetry
+source $HOME/.poetry/env
