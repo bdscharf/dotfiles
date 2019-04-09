@@ -73,7 +73,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python='python3'
-alias brewgo="brew update && brew upgrade && brew cleanup"
 alias dotup="python ~/dotfiles/backup_dotfile.py"
 
 # iTerm2 Shell integration
