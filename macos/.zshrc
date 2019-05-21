@@ -101,7 +101,6 @@ unset __conda_setup
 # Set-up cheat editor
 export CHEATCOLORS=true
 export CHEAT_EDITOR='vim'
- 
 
 # Enable direnv
 eval "$(direnv hook zsh)"
@@ -112,3 +111,9 @@ export PYTHONPATH="/miniconda/bin/"
 
 # Activate Poetry
 source $HOME/.poetry/env
+
+# Scheme alias
+alias scheme=~/Applications/MIT-Scheme.app/Contents/Resources/mit-scheme
+
+# NPM Global Set-up
+export PATH=~/.npm-global/bin:$PATH
