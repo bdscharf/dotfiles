@@ -117,3 +117,15 @@ alias scheme=~/Applications/MIT-Scheme.app/Contents/Resources/mit-scheme
 
 # NPM Global Set-up
 export PATH=~/.npm-global/bin:$PATH
+
+# usr/local/.bin onto the path
+export PATH=~/.local/bin:$PATH
+
+# tcl-tk onto the path
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+
+# theos onto path and setup
+export THEOS=./theos
+export PATH=$THEOS/bin:$PATH
+export THEOS_DEVICE_IP=example.local 
+export THEOS_DEVICE_PORT=22
