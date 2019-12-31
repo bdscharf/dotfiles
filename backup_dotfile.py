@@ -2,6 +2,8 @@ import sys, os, shutil
 # workarounds for annoyances of shutil with directories
 from distutils.dir_util import copy_tree, remove_tree
 
+macos = False
+
 if len(sys.argv) != 2:
     print('Usage:')
     print('   dotup [path]')
@@ -13,7 +15,10 @@ actual_name = os.path.basename(item_name)
 script_dir = os.path.dirname(os.path.realpath('__file__'))
 absolute_path = os.path.join(script_dir, item_name)
 
-dotfiles_dir = os.path.abspath('../dotfiles/macos')
+if macos:
+    dtfiles_dir = os.path.abspath('../dotfiles/macos')
+else:
+    dotfiles_dir = os.path.abspath('../dotfiles')
 
 backup_dir = os.path.isdir(absolute_path)
 
